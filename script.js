@@ -17,7 +17,7 @@ function szor(){
 }
 
 function oszt(){
-    elso = parseInt(document.getElementById("elso").value);
-    masodik = parseInt(document.getElementById("masodik").value);
+    elso = parseFloat(document.getElementById("elso").value);
+    masodik = parseFloat(document.getElementById("masodik").value);
     document.getElementById("Eredmeny").innerHTML = elso / masodik;
 }
